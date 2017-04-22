@@ -125,6 +125,8 @@
 		13EA851C1EAB45F4006B71FF /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13EA851A1EAB45F4006B71FF /* MainViewController.xib */; };
 		13EA85231EAB5586006B71FF /* HuiYouViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EA85211EAB5586006B71FF /* HuiYouViewController.m */; };
 		13EA85241EAB5586006B71FF /* HuiYouViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13EA85221EAB5586006B71FF /* HuiYouViewController.xib */; };
+		13EA85281EAB58A5006B71FF /* JieMengViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EA85261EAB58A5006B71FF /* JieMengViewController.m */; };
+		13EA85291EAB58A5006B71FF /* JieMengViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13EA85271EAB58A5006B71FF /* JieMengViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -251,6 +253,9 @@
 		13EA85201EAB5586006B71FF /* HuiYouViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuiYouViewController.h; sourceTree = "<group>"; };
 		13EA85211EAB5586006B71FF /* HuiYouViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuiYouViewController.m; sourceTree = "<group>"; };
 		13EA85221EAB5586006B71FF /* HuiYouViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HuiYouViewController.xib; sourceTree = "<group>"; };
+		13EA85251EAB58A5006B71FF /* JieMengViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JieMengViewController.h; sourceTree = "<group>"; };
+		13EA85261EAB58A5006B71FF /* JieMengViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JieMengViewController.m; sourceTree = "<group>"; };
+		13EA85271EAB58A5006B71FF /* JieMengViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JieMengViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -444,6 +449,9 @@
 		13EA85131EAB45AC006B71FF /* 解梦 */ = {
 			isa = PBXGroup;
 			children = (
+				13EA85251EAB58A5006B71FF /* JieMengViewController.h */,
+				13EA85261EAB58A5006B71FF /* JieMengViewController.m */,
+				13EA85271EAB58A5006B71FF /* JieMengViewController.xib */,
 			);
 			path = "解梦";
 			sourceTree = "<group>";
@@ -600,6 +608,7 @@
 				13EA84F81EAB4582006B71FF /* ss6.png in Resources */,
 				13EA84D71EAB4582006B71FF /* nb9.png in Resources */,
 				13EA84FF1EAB4582006B71FF /* sx11.png in Resources */,
+				13EA85291EAB58A5006B71FF /* JieMengViewController.xib in Resources */,
 				13EA85031EAB4582006B71FF /* sx5.png in Resources */,
 				13EA84BB1EAB4582006B71FF /* image158.png in Resources */,
 				13EA84A81EAB4582006B71FF /* cezi.png in Resources */,
@@ -664,6 +673,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13EA84201EAB3ED9006B71FF /* AppDelegate.m in Sources */,
+				13EA85281EAB58A5006B71FF /* JieMengViewController.m in Sources */,
 				13EA851B1EAB45F4006B71FF /* MainViewController.m in Sources */,
 				13EA841D1EAB3ED9006B71FF /* main.m in Sources */,
 				13EA85231EAB5586006B71FF /* HuiYouViewController.m in Sources */,

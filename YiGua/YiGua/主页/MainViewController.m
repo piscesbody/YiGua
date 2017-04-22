@@ -8,6 +8,7 @@
 
 #import "MainViewController.h"
 #import "HuiYouViewController.h"
+#import "JieMengViewController.h"
 
 @interface MainViewController ()
 
@@ -52,11 +53,16 @@
 
 - (IBAction)btnClick:(UIButton *)sender {
     switch (sender.tag) {
-        case 6:
-            [self.navigationController pushViewController:[[HuiYouViewController alloc]init] animated:YES];
-            NSLog(@"%d",sender.tag);
+            
+        case 5:
+            [self.navigationController pushViewController:[[JieMengViewController alloc]init] animated:YES];
+//            NSLog(@"%ld",sender.tag);
             break;
             
+        case 6:
+            [self.navigationController pushViewController:[[HuiYouViewController alloc]init] animated:YES];
+            break;
+        
         default:
             break;
     }
