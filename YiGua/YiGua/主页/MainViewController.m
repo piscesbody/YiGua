@@ -7,6 +7,7 @@
 //
 
 #import "MainViewController.h"
+#import "HuiYouViewController.h"
 
 @interface MainViewController ()
 
@@ -50,7 +51,15 @@
 */
 
 - (IBAction)btnClick:(UIButton *)sender {
-    
+    switch (sender.tag) {
+        case 6:
+            [self.navigationController pushViewController:[[HuiYouViewController alloc]init] animated:YES];
+            NSLog(@"%d",sender.tag);
+            break;
+            
+        default:
+            break;
+    }
     
 }
 @end

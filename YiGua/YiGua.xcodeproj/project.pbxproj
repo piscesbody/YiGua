@@ -123,6 +123,8 @@
 		13EA850E1EAB4582006B71FF /* zi.png in Resources */ = {isa = PBXBuildFile; fileRef = 13EA84A01EAB4582006B71FF /* zi.png */; };
 		13EA851B1EAB45F4006B71FF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EA85191EAB45F4006B71FF /* MainViewController.m */; };
 		13EA851C1EAB45F4006B71FF /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13EA851A1EAB45F4006B71FF /* MainViewController.xib */; };
+		13EA85231EAB5586006B71FF /* HuiYouViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EA85211EAB5586006B71FF /* HuiYouViewController.m */; };
+		13EA85241EAB5586006B71FF /* HuiYouViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13EA85221EAB5586006B71FF /* HuiYouViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -246,6 +248,9 @@
 		13EA85181EAB45F4006B71FF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		13EA85191EAB45F4006B71FF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		13EA851A1EAB45F4006B71FF /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		13EA85201EAB5586006B71FF /* HuiYouViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuiYouViewController.h; sourceTree = "<group>"; };
+		13EA85211EAB5586006B71FF /* HuiYouViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuiYouViewController.m; sourceTree = "<group>"; };
+		13EA85221EAB5586006B71FF /* HuiYouViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HuiYouViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -429,6 +434,9 @@
 		13EA85121EAB45AC006B71FF /* 会友 */ = {
 			isa = PBXGroup;
 			children = (
+				13EA85201EAB5586006B71FF /* HuiYouViewController.h */,
+				13EA85211EAB5586006B71FF /* HuiYouViewController.m */,
+				13EA85221EAB5586006B71FF /* HuiYouViewController.xib */,
 			);
 			path = "会友";
 			sourceTree = "<group>";
@@ -640,6 +648,7 @@
 				13EA84A21EAB4582006B71FF /* 2336783_221605075_2.jpg in Resources */,
 				13EA84BD1EAB4582006B71FF /* image165.png in Resources */,
 				13EA85021EAB4582006B71FF /* sx4.png in Resources */,
+				13EA85241EAB5586006B71FF /* HuiYouViewController.xib in Resources */,
 				13EA84D21EAB4582006B71FF /* nb4.png in Resources */,
 				13EA84CB1EAB4582006B71FF /* n7.png in Resources */,
 				13EA84FC1EAB4582006B71FF /* sx0.png in Resources */,
@@ -657,6 +666,7 @@
 				13EA84201EAB3ED9006B71FF /* AppDelegate.m in Sources */,
 				13EA851B1EAB45F4006B71FF /* MainViewController.m in Sources */,
 				13EA841D1EAB3ED9006B71FF /* main.m in Sources */,
+				13EA85231EAB5586006B71FF /* HuiYouViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

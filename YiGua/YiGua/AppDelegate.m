@@ -22,7 +22,9 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     MainViewController *root = [[MainViewController alloc]init];
-    self.window.rootViewController = root;
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:root];
+    nav.navigationBarHidden = YES;
+    self.window.rootViewController = nav;
     
     return YES;
 }
