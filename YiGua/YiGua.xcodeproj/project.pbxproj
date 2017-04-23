@@ -127,6 +127,10 @@
 		13EA85241EAB5586006B71FF /* HuiYouViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13EA85221EAB5586006B71FF /* HuiYouViewController.xib */; };
 		13EA85281EAB58A5006B71FF /* JieMengViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EA85261EAB58A5006B71FF /* JieMengViewController.m */; };
 		13EA85291EAB58A5006B71FF /* JieMengViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13EA85271EAB58A5006B71FF /* JieMengViewController.xib */; };
+		13EA852D1EAB6ACA006B71FF /* QiuQianViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EA852B1EAB6ACA006B71FF /* QiuQianViewController.m */; };
+		13EA852E1EAB6ACA006B71FF /* QiuQianViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13EA852C1EAB6ACA006B71FF /* QiuQianViewController.xib */; };
+		13EA85321EAB6ADF006B71FF /* JieQianViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EA85301EAB6ADF006B71FF /* JieQianViewController.m */; };
+		13EA85331EAB6ADF006B71FF /* JieQianViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13EA85311EAB6ADF006B71FF /* JieQianViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -256,6 +260,12 @@
 		13EA85251EAB58A5006B71FF /* JieMengViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JieMengViewController.h; sourceTree = "<group>"; };
 		13EA85261EAB58A5006B71FF /* JieMengViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JieMengViewController.m; sourceTree = "<group>"; };
 		13EA85271EAB58A5006B71FF /* JieMengViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JieMengViewController.xib; sourceTree = "<group>"; };
+		13EA852A1EAB6ACA006B71FF /* QiuQianViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiuQianViewController.h; sourceTree = "<group>"; };
+		13EA852B1EAB6ACA006B71FF /* QiuQianViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiuQianViewController.m; sourceTree = "<group>"; };
+		13EA852C1EAB6ACA006B71FF /* QiuQianViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QiuQianViewController.xib; sourceTree = "<group>"; };
+		13EA852F1EAB6ADF006B71FF /* JieQianViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JieQianViewController.h; sourceTree = "<group>"; };
+		13EA85301EAB6ADF006B71FF /* JieQianViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JieQianViewController.m; sourceTree = "<group>"; };
+		13EA85311EAB6ADF006B71FF /* JieQianViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JieQianViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -459,6 +469,12 @@
 		13EA85141EAB45AC006B71FF /* 求签 */ = {
 			isa = PBXGroup;
 			children = (
+				13EA852A1EAB6ACA006B71FF /* QiuQianViewController.h */,
+				13EA852B1EAB6ACA006B71FF /* QiuQianViewController.m */,
+				13EA852C1EAB6ACA006B71FF /* QiuQianViewController.xib */,
+				13EA852F1EAB6ADF006B71FF /* JieQianViewController.h */,
+				13EA85301EAB6ADF006B71FF /* JieQianViewController.m */,
+				13EA85311EAB6ADF006B71FF /* JieQianViewController.xib */,
 			);
 			path = "求签";
 			sourceTree = "<group>";
@@ -602,6 +618,7 @@
 				13EA84F31EAB4582006B71FF /* ss11.png in Resources */,
 				13EA84D61EAB4582006B71FF /* nb8.png in Resources */,
 				13EA84B41EAB4582006B71FF /* goto1.png in Resources */,
+				13EA85331EAB6ADF006B71FF /* JieQianViewController.xib in Resources */,
 				13EA84A61EAB4582006B71FF /* btn1.png in Resources */,
 				13EA84E11EAB4582006B71FF /* nbs9.png in Resources */,
 				13EA84F51EAB4582006B71FF /* ss3.png in Resources */,
@@ -644,6 +661,7 @@
 				13EA84C21EAB4582006B71FF /* kuang.png in Resources */,
 				13EA84B01EAB4582006B71FF /* goback.png in Resources */,
 				13EA84DD1EAB4582006B71FF /* nbs5.png in Resources */,
+				13EA852E1EAB6ACA006B71FF /* QiuQianViewController.xib in Resources */,
 				13EA84C31EAB4582006B71FF /* line.png in Resources */,
 				13EA84DA1EAB4582006B71FF /* nbs2.png in Resources */,
 				13EA84E91EAB4582006B71FF /* r01.png in Resources */,
@@ -673,10 +691,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				13EA84201EAB3ED9006B71FF /* AppDelegate.m in Sources */,
+				13EA85321EAB6ADF006B71FF /* JieQianViewController.m in Sources */,
 				13EA85281EAB58A5006B71FF /* JieMengViewController.m in Sources */,
 				13EA851B1EAB45F4006B71FF /* MainViewController.m in Sources */,
 				13EA841D1EAB3ED9006B71FF /* main.m in Sources */,
 				13EA85231EAB5586006B71FF /* HuiYouViewController.m in Sources */,
+				13EA852D1EAB6ACA006B71FF /* QiuQianViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

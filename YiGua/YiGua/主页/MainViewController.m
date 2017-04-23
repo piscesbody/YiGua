@@ -9,6 +9,7 @@
 #import "MainViewController.h"
 #import "HuiYouViewController.h"
 #import "JieMengViewController.h"
+#import "QiuQianViewController.h"
 
 @interface MainViewController ()
 
@@ -61,6 +62,9 @@
             
         case 6:
             [self.navigationController pushViewController:[[HuiYouViewController alloc]init] animated:YES];
+            break;
+        case 1:
+            [self.navigationController pushViewController:[[QiuQianViewController alloc]init] animated:YES];
             break;
         
         default:
